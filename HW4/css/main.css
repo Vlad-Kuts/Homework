@@ -1,0 +1,90 @@
+.container{
+	border: 2px solid green;
+	width: 80%;
+	margin: auto;
+	height: 120%;
+	display: flex;
+	flex-direction: column;
+}
+body{
+	height: 120%;
+}
+html{
+	height: 120%;
+}
+.red__first{
+	height: 20%;
+	border: 2px solid red;
+	width: 90%;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.first__blue__block{
+	width: 30%;
+	border: 2px solid blue;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	height: 80%;
+}
+.second__blue__block{
+	width: 35%;
+	border: 2px solid red;
+	height: 80%;
+}
+.first__block__yellow{
+	width: 80%;
+	height: 40%;
+	border: 2px solid yellow;
+	margin: auto;
+}
+.red__second{
+	border: 2px solid red;
+	height: 15%;
+	display: flex;
+	width: 90%;
+	margin: auto;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+.second__block--blue{
+	border: 2px solid blue;
+	width: 20%;
+	height: 80%;
+}
+.red__third{
+	border: 2px solid red;
+	height: 30%;
+	width: 90%;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.third__block--blue{
+	border: 2px solid blue;
+	height: 90%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+#third__block--blue1{
+	width: 25%;
+}
+#third__block--blue2{
+	width: 70%;
+}
+.third__block--yellow{
+	border: 2px solid yellow;
+	width: 96%;
+	margin: auto;
+}
+#third__block--yellow1{
+	height: 70%;
+}
+#third__block--yellow2{
+	height: 20%;
+}
