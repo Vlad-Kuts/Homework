@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Illum</title>
+	<link rel="stylesheet" type="text/css" href="libs/fontawesome/css/all.css">
+	<style type="text/css">
+		*{
+		    padding: 0;
+		    margin: 0;
+	    }
+	    .menu__left{
+	    	display: flex;
+		    list-style: none;
+		    flex-direction: row;
+	    }
+	    .menu__left li {
+		    padding: 20px 50px;
+		    border-left: 1px solid grey;
+		    border-right: 1px solid grey;
+		}
+		.menu__left li a, .menu__right li a{
+		    /*text-transform: uppercase;*/
+		    text-decoration: none;
+		    color: lightgrey;
+	    }
+	    nav{
+		    background: dimgrey;
+		    display: flex;
+		    /*justify-content: center;*/
+	    }
+	    .menu__right{
+	    	display: flex;
+	    	list-style: none;
+	    	margin-left: 550px;
+	    }
+	    .first__menu--item{
+		    font-weight: 800;
+	    }
+	    .menu__right li {
+	    	padding: 20px 0px;
+	    	margin-left: 20px;
+	    }
+	    .menu__right li a{
+	    	text-decoration: none;
+		    border-bottom: 1px dashed lightgrey;
+	    }
+	    .second__menu--item2{
+	    	border-bottom: none !important;
+	    	margin-left: -15px !important;
+	    }
+
+	</style>
+</head>
+<body>
+	<header class="header">
+		<nav>
+			<ul class="menu__left">
+				<li><a href="#" class="first__menu--item">Works</a></li>
+				<li><a href="#">Authors </a></li>
+				<li><a href="#">Studies </a></li>
+				<li><a href="#">Schools </a></li>
+				<li><a href="#">Contests </a></li>
+				<li><a href="#">Blog </a></li>
+				<li><a href="#">Wiki <i class="fas fa-long-arrow-alt-right"></i></a></li>
+			</ul>
+			<ul class="menu__right">
+				<li><a href="#"><i class="fas fa-sign-out-alt"></i> Log in</a></li>
+				<li><a href="#"><i class="fas fa-shoe-prints"></i> Register</a></li>
+				<li><a href="#">Ru</a></li>
+				<li><a href="#" class="second__menu--item2">En</a></li>
+			</ul>
+		</nav>
+	</header>
+</body>
+</html>
